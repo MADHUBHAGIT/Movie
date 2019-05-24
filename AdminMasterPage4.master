@@ -1,0 +1,177 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage4.master.cs" Inherits="AdminMasterPage4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>Movie Pro Responsive HTML Template</title>
+<link rel="stylesheet" type="text/css" href="css/animate.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
+<link rel="stylesheet" type="text/css" href="css/dl-menu.css" />
+<link rel="stylesheet" type="text/css" href="css/nice-select.css" />
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+<link rel="stylesheet" type="text/css" href="css/venobox.css" />
+<link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/layers.css" />
+<link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/navigation.css" />
+<link rel="stylesheet" type="text/css" href="js/plugin/rs_slider/settings.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
+
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="prs_navigation_main_wrapper">
+        <div class="container-fluid">
+            <div id="search_open" class="gc_search_box">
+                <input type="text" placeholder="Search here">
+                <button>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="prs_navi_left_main_wrapper">
+                <div class="prs_logo_main_wrapper">
+                    <a href="Default.aspx">
+                        <img src="images/header/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <div class="prs_menu_main_wrapper">
+                    <nav class="navbar navbar-default">
+						<div id="dl-menu" class="xv-menuwrapper responsive-menu">
+							
+							
+							<div class="clearfix"></div>
+							<ul class="dl-menu">
+							
+									
+								
+									<ul class="lg-submenu">
+									
+
+					
+										
+									</ul>
+
+                                 
+									
+								</li>
+                               
+                                
+				
+					</nav>
+                </div>
+            </div>
+            
+            <div class="prs_navi_right_main_wrapper">
+                <div class="prs_slidebar_wrapper">
+                </div>
+                <div class="prs_top_login_btn_wrapper">
+                    <div class="prs_animate_btn1">
+                        <ul>
+                            <li><a href="AdminLogin.aspx" class="button button--tamaya" data-text="Login"><span>AdminLogin</span></a>
+
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="prs_top_login_btn_wrapper">
+                    <div class="prs_animate_btn1">
+                   
+                        <ul>
+                          <!---- <li><a href="Registeration.aspx" class="button button--tamaya" data-text="sign up"><span>
+                                sign up</span></a> </li> --->
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                </div>
+</div>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        
+	<div class="prs_footer_main_section_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="prs_footer_cont1_wrapper prs_footer_cont1_wrapper_1">
+						<h2>LANGUAGE MOVIES</h2>
+						<ul>
+							<li><i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">English movie</a>
+							</li>
+							<li><i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">Tamil movie</a>
+							</li>
+							
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="prs_footer_cont1_wrapper prs_footer_cont1_wrapper_2">
+						<h2>MOVIES by presenter</h2>
+						<ul>
+							<li><i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">Action movie</a>
+							</li>
+							<li><i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">Romantic movie</a>
+							</li>
+							
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="prs_footer_cont1_wrapper prs_footer_cont1_wrapper_3">
+						<h2>BOOKING ONLINE</h2>
+						<ul>
+							<li><i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">www.example.com</a>
+							</li>
+							<li><i class="fa fa-circle"></i> &nbsp;&nbsp;<a href="#">www.hello.com</a>
+							</li>
+						
+							</li>
+						</ul>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	<div class="prs_bottom_footer_wrapper">	<a href="javascript:" id="return-to-top"><i class="flaticon-play-button"></i></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+					<div class="prs_bottom_footer_cont_wrapper">
+						<p>Copyright 2018 <a href="#">Movie Pro</a> . All rights reserved - Design by <a href="#">Webstrot</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+					<div class="prs_footer_social_wrapper">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a>
+							</li>
+							<li><a href="#"><i class="fa fa-youtube-play"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    </div>
+    </form>
+</body>
+</html>
+

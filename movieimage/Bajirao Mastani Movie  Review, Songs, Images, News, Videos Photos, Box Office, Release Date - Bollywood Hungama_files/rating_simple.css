@@ -1,0 +1,31 @@
+.webwidget_rating_simple{
+    padding: 0px;
+    margin: 0px;
+}
+.webwidget_rating_simple li{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+	width: 10%;
+}
+.webwidget_rating_simple li .dashicons-star-filled{
+    color: #CDCDCD;
+	width: 100%;
+}
+.webwidget_rating_simple li .bh-ratings-star-filled{
+	color: #FFAD01;
+}
+.bh-ratings-action {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+.star-no-fill {
+	position: relative;
+}
